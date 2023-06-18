@@ -1,0 +1,20 @@
+<h1 class="text-center mb-4">List Authors</h1>
+
+
+
+<table class="table table-bordered table-striped table-hover px-3">
+
+  <tr align="center">
+    <th>ID</th>
+    <th>Name</th>
+  </tr>
+
+  <tr *ngFor="let author of authors" align="center">
+
+    <td>{{author.id}}</td>
+
+    <td>{{author.name}}</td>
+
+  </tr>
+
+</table>

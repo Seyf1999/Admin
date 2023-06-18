@@ -1,0 +1,14 @@
+.navbar-nav .active {
+  color: rgb(236, 16, 16);
+}
+.card {
+  border: 1px solid black;
+}
+
+.card-body {
+  padding:1rem;
+}
+
+.bg-light {
+  background-color: #ece8e8; /* couleur gris clair */
+}

@@ -1,0 +1,20 @@
+<div class="container d-flex justify-content-center">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>
+        <span style="display: inline-block;">My new post par </span>
+        <span *ngFor="let author of authors" [hidden]="post.author_id != author.id" style="color: red;"
+          class="author-name">
+          {{author.full_name}}
+        </span>
+        <span style="display: inline-block;">{{post.full_name}}</span>
+      </h2>
+
+
+
+
+      <h3> <img [src]='post.image_url' style="width: 300px; height:200px" /></h3>
+      <h3>{{post.resume}}</h3>
+    </div>
+  </div>
+</div>
